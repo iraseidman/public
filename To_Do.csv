@@ -1,38 +1,38 @@
 ﻿To Do,,,,,,
 Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
-,Promote freelance gigs,7/1/24,10/1/25,0,,FALSE
-,Delve into Flutter code,8/1/24,10/1/25,0,,FALSE
-,Prepare documentation for Morris baby account,11/14/25,12/9/25,0,,FALSE
-,Send some mail to Disco Steff,12/24/25,12/31/25,0,,FALSE
-,"Record Chopin etudes/nocturnes, Bach preludes and fugues, Moonlight, Mozart sonatas, Georgia on my Mind, Sunday Mornings, Rachmaninoff preludes, and Brothers",10/1/25,10/1/26,0,,FALSE
-,Blog post about step size corollary to log reg post and review of the five that are already written,2/1/26,8/1/26,0,,FALSE
-,Finish online dashboard: Check for bugs and whether the following problems still exist: don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,2/1/26,11/1/26,0,,FALSE
-,Confirm with T about investing.,2/1/26,12/2/26,0,,FALSE
-,Check on the radioactive rocks,2/15/26,12/16/26,0,,FALSE
-,Send thank you cards.,2/20/26,3/3/26,0,,FALSE
+,Promote freelance gigs,7/1/24,10/1/25,,,FALSE
+,Delve into Flutter code,8/1/24,10/1/25,,,FALSE
+,Prepare documentation for Morris baby account,11/14/25,12/9/25,,,FALSE
+,Send some mail to Disco Steff,12/24/25,12/31/25,,,FALSE
+,"Record Chopin etudes/nocturnes, Bach preludes and fugues, Moonlight, Mozart sonatas, Georgia on my Mind, Sunday Mornings, Rachmaninoff preludes, and Brothers",10/1/25,10/1/26,,,FALSE
+,Blog post about step size corollary to log reg post and review of the five that are already written,2/1/26,8/1/26,,,FALSE
+,Finish online dashboard: Check for bugs and whether the following problems still exist: don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,2/1/26,11/1/26,,,FALSE
+,Confirm with T about investing.,2/1/26,12/2/26,,,FALSE
+,Check on the radioactive rocks,2/15/26,12/16/26,,,FALSE
+,Send thank you cards.,2/20/26,3/3/26,,,FALSE
 ,"Buy Dolphy books - Cat in the Hat Comes Back, MgElliot's Pool, Oh the Places You'll Go, Homer, and Goodnight Moon.",3/2/26,12/22/26,Need to be back in the US,,FALSE
-,Blog post about sigmoid,6/1/26,8/1/26,0,,FALSE
-,Start growing lotus and hemp,7/1/26,4/1/26,0,,FALSE
-,Drumming lessons,7/1/26,1/1/27,0,,FALSE
-,"Shopping: racing bike, toys, sexy bread box, and volleyball.",11/1/26,2/1/26,0,,FALSE
-,Singing lessons,1/1/27,7/1/28,0,,FALSE
-,Blog post about linear regression,7/1/27,8/1/27,0,,FALSE
-,Submit 10 January proposals on Upwork,1/2/23,1/31/23,0,1/31/23,FALSE
-,Complete and post second JL notebook,10/1/22,11/4/22,0,3/3/23,FALSE
+,Blog post about sigmoid,6/1/26,8/1/26,,,FALSE
+,Start growing lotus and hemp,7/1/26,4/1/26,,,FALSE
+,Drumming lessons,7/1/26,1/1/27,,,FALSE
+,"Shopping: racing bike, toys, sexy bread box, and volleyball.",11/1/26,2/1/26,,,FALSE
+,Singing lessons,1/1/27,7/1/28,,,FALSE
+,Blog post about linear regression,7/1/27,8/1/27,,,FALSE
+,Submit 10 January proposals on Upwork,1/2/23,1/31/23,,1/31/23,FALSE
+,Complete and post second JL notebook,10/1/22,11/4/22,,3/3/23,FALSE
 ,Make a piano recording,2/1/23,3/1/23,Need to be back in the US,3/31/23,FALSE
 ,Start getting tease printed,5/1/23,5/1/23,Need to be back in the US,4/1/23,FALSE
-,Make a piano recording,3/1/23,4/1/23,0,4/7/23,FALSE
-,Submit The Host to Three Competitions,5/1/23,6/1/23,0,10/17/23,FALSE
-,Blog post about finding coefficients for a regression,4/1/23,10/1/23,0,10/28/23,FALSE
+,Make a piano recording,3/1/23,4/1/23,,4/7/23,FALSE
+,Submit The Host to Three Competitions,5/1/23,6/1/23,,10/17/23,FALSE
+,Blog post about finding coefficients for a regression,4/1/23,10/1/23,,10/28/23,FALSE
 ,Complete dashboard,7/25/23,1/1/24,New job with Excel,1/14/24,FALSE
-,Finish Spritz iOS code,7/1/24,10/1/25,0,12/12/24,FALSE
-,Reach out to Aart about making wooden cube and coffee funnel,12/1/25,1/1/26,0,12/22/25,FALSE
-,Confirm passport for Mo-Town T-Snort,1/30/26,2/15/26,0,1/10/26,FALSE
+,Finish Spritz iOS code,7/1/24,10/1/25,,12/12/24,FALSE
+,Reach out to Aart about making wooden cube and coffee funnel,12/1/25,1/1/26,,12/22/25,FALSE
+,Confirm passport for Mo-Town T-Snort,1/30/26,2/15/26,,1/10/26,FALSE
 ,Start Let’s Analyze,6/1/24,7/1/24,Need to be back in the US,,TRUE
-,"Get letters of rec from principal, client, and prof",6/1/24,7/1/24,0,,TRUE
-,Start studying for the GRE,6/1/24,9/1/24,0,,TRUE
+,"Get letters of rec from principal, client, and prof",6/1/24,7/1/24,,,TRUE
+,Start studying for the GRE,6/1/24,9/1/24,,,TRUE
 ,Start Stay Direct Reddit Group,7/1/24,8/1/24,Need to be back in the US,,TRUE
-,Join political club,8/1/24,4/1/25,0,,TRUE
-,Take the GRE,10/1/24,7/1/24,0,,TRUE
+,Join political club,8/1/24,4/1/25,,,TRUE
+,Take the GRE,10/1/24,7/1/24,,,TRUE
 ,,,,,,
 ,,,,,,

@@ -1,13 +1,12 @@
 ﻿Person,Last Touch Point,Cadence,Time to Next Touch Point,Time Since,Var,Bday,Bday Var,Variance,Bday Flag,,,,,
-Luke Malvey,"Sunday, October 5, 2025",Quarterly,90,110,-20,9-Jan,351.00,-20,,,,,,
 Yone,"Tuesday, December 9, 2025",Monthly,30,45,-15,23-Oct,273.00,-15,,,,,,
-Tsunami,"Wednesday, October 22, 2025",Quarterly,90,93,-3,11-Aug,200.00,-3,,,,,Weekly,7
-Gene Seid,"Monday, October 27, 2025",Quarterly,90,88,2,9-Dec,320.00,2,,,,,Biweekly,14
-Le Mange,"Monday, October 27, 2025",Quarterly,90,88,2,25-Jul,183.00,2,,,,,Monthly,30
-Janeth,"Friday, August 1, 2025",Biannually,180,175,5,4-May,101.00,5,,,,,Quarterly,90
-Sarthak,"Sunday, December 7, 2025",Biannually,180,47,133,2-Feb,10.00,10,Happy birthday!!!,,,,Biannually,180
-Zach,"Wednesday, January 7, 2026",Quarterly,90,16,74,2-Feb,10.00,10,Happy birthday!!!,,,,Annually,365
-Austin West,"Tuesday, November 4, 2025",Quarterly,90,80,10,10-Nov,291.00,10,,,,,,
+Tsunami,"Wednesday, October 22, 2025",Quarterly,90,93,-3,11-Aug,200.00,-3,,,,,,
+Gene Seid,"Monday, October 27, 2025",Quarterly,90,88,2,9-Dec,320.00,2,,,,,Weekly,7
+Le Mange,"Monday, October 27, 2025",Quarterly,90,88,2,25-Jul,183.00,2,,,,,Biweekly,14
+Janeth,"Friday, August 1, 2025",Biannually,180,175,5,4-May,101.00,5,,,,,Monthly,30
+Sarthak,"Sunday, December 7, 2025",Biannually,180,47,133,2-Feb,10.00,10,Happy birthday!!!,,,,Quarterly,90
+Zach,"Wednesday, January 7, 2026",Quarterly,90,16,74,2-Feb,10.00,10,Happy birthday!!!,,,,Biannually,180
+Austin West,"Tuesday, November 4, 2025",Quarterly,90,80,10,10-Nov,291.00,10,,,,,Annually,365
 Laura,"Sunday, January 18, 2026",Biannually,180,5,175,3-Feb,11.00,11,Happy birthday!!!,,,,,
 Goose,"Sunday, August 10, 2025",Biannually,180,166,14,17-Jan,359.00,14,,,,,,
 Tyler,"Monday, January 12, 2026",Monthly,30,11,19,11-Apr,78.00,19,,,,,,
@@ -31,6 +30,7 @@ Amrouis,"Tuesday, September 9, 2025",Annually,365,136,229,10-Apr,77.00,77,Happy 
 Jason Kant,"Monday, January 12, 2026",Quarterly,90,11,79,15-Jul,173.00,79,,,,,,
 Zweigs,"Sunday, January 18, 2026",Quarterly,90,5,85,28-Dec,339.00,85,,,,,,
 Leah,"Wednesday, October 22, 2025",Biannually,180,93,87,10-Aug,199.00,87,,,,,,
+Luke Malvey,"Friday, January 23, 2026",Quarterly,90,0,90,9-Jan,351.00,90,,,,,,
 Peter Seid,"Monday, May 5, 2025",Annually,365,263,102,29-Jul,187.00,102,,,,,,
 Brando,"Monday, October 20, 2025",Annually,365,95,270,19-May,116.00,116,Happy birthday!!!,,,,,
 Gabe Seid,"Monday, August 25, 2025",Annually,365,151,214,3-Jul,161.00,161,Happy birthday!!!,,,,,
