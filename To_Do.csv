@@ -1,7 +1,6 @@
 ﻿To Do,,,,,,
 Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
 ,Delve into Flutter code,8/1/24,10/1/25,,,FALSE
-,Send some mail to Disco Steff,12/24/25,12/31/25,,,FALSE
 ,"Record Chopin etudes/nocturnes, Bach preludes and fugues, Moonlight, Mozart sonatas, Georgia on my Mind, Sunday Mornings, Rachmaninoff preludes, and Brothers",10/1/25,10/1/26,,,FALSE
 ,Blog post about step size corollary to log reg post and review of the five that are already written,2/1/26,8/1/26,,,FALSE
 ,Finish online dashboard: Check for bugs and whether the following problems still exist: don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,2/1/26,11/1/26,,,FALSE
@@ -28,6 +27,7 @@ Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
 ,Finish Spritz iOS code,7/1/24,10/1/25,,12/12/24,FALSE
 ,Reach out to Aart about making wooden cube and coffee funnel,12/1/25,1/1/26,,12/22/25,FALSE
 ,Confirm passport for Mo-Town T-Snort,1/30/26,2/15/26,,1/10/26,FALSE
+,Send some mail to Disco Steff,12/24/25,12/31/25,,2/17/26,FALSE
 ,Start Let’s Analyze,6/1/24,7/1/24,Need to be back in the US,,TRUE
 ,"Get letters of rec from principal, client, and prof",6/1/24,7/1/24,,,TRUE
 ,Start studying for the GRE,6/1/24,9/1/24,,,TRUE
