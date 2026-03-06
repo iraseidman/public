@@ -1,4 +1,4 @@
-Stock Data - 2026-03-05 20:47:00 EST
+Stock Data - 2026-03-06 08:04:01 EST
 ============================================================
 
 Company: Chipotle Mexican Grill, Inc. (CMG)
@@ -16,7 +16,7 @@ Change: $+4.47 (+5.04%)
 52-Week High: $193.55
 52-Week Low: $73.06
 Market Cap: $12.59B
-Volume: 2,618,447
+Volume: 3,057,000
 ----------------------------------------
 
 Company: Amplify Etho Climate Leadership U.S. ETF (ETHO)
@@ -25,12 +25,12 @@ Change: $-0.97 (-1.40%)
 52-Week High: $70.77
 52-Week Low: $47.27
 Market Cap: N/A
-Volume: 2,048
+Volume: 2,100
 ----------------------------------------
 
 Company: American Funds 2060 Trgt Date Retire R6 (RFUTX)
-Current Price: $20.91
-Change: $-0.00 (-0.00%)
+Current Price: $20.78
+Change: $-0.13 (-0.62%)
 52-Week High: $21.75
 52-Week Low: $15.96
 Market Cap: N/A
