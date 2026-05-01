@@ -1,15 +1,14 @@
 ﻿To Do,,,,,,
 Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
 ,Delve into Flutter code,8/1/24,10/1/25,,,FALSE
-,"Record Chopin etudes/nocturnes, Bach preludes and fugues, Moonlight, Mozart sonatas, Georgia on my Mind, Sunday Mornings, Rachmaninoff preludes, and Brothers",10/1/25,10/1/26,,,FALSE
-,Blog post about step size corollary to log reg post and review of the five that are already written,2/1/26,8/1/26,,,FALSE
 ,"Buy Dolphy books - Cat in the Hat Comes Back, MgElliot's Pool, Oh the Places You'll Go, Homer, and Goodnight Moon.",3/2/26,12/22/26,Need to be back in the US,,FALSE
-,Prepare documentation for Morris baby account - file with taxes,4/15/26,4/20/26,Need to be back in the Netherlands to get SSN,,FALSE
-,Get Morris' social security number,4/15/26,4/20/26,,,FALSE
-,Finish online dashboard: Don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,5/1/26,11/1/26,,,FALSE
-,Confirm with T about investing.,5/1/26,12/2/26,,,FALSE
+,Finish online dashboard: Don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,6/1/26,11/1/26,,,FALSE
+,Confirm with T about investing.,6/1/26,12/2/26,,,FALSE
+,Prepare documentation for Morris baby account - file with taxes,5/15/26,5/20/26,Need to be back in the Netherlands to get SSN,,FALSE
+,Get Morris' social security number,5/15/26,5/20/26,,,FALSE
 ,Blog post about sigmoid,6/1/26,8/1/26,,,FALSE
 ,Start growing lotus and hemp,7/1/26,4/1/26,,,FALSE
+,"Record Chopin etudes/nocturnes, Bach preludes and fugues, Moonlight, Mozart sonatas, Georgia on my Mind, Sunday Mornings, Rachmaninoff preludes, and Brothers",7/1/26,10/1/26,,,FALSE
 ,Drumming lessons,7/1/26,1/1/27,,,FALSE
 ,Promote freelance gigs,10/1/26,10/31/26,,,FALSE
 ,"Shopping: racing bike, toys, sexy bread box, and volleyball.",11/1/26,2/1/26,,,FALSE
@@ -28,6 +27,7 @@ Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
 ,Send some mail to Disco Steff,12/24/25,12/31/25,,2/17/26,FALSE
 ,Check on the radioactive rocks,2/15/26,12/16/26,,2/22/26,FALSE
 ,Send thank you cards.,2/20/26,3/3/26,,2/22/26,FALSE
+,Blog post about step size corollary to log reg post and review of the five that are already written,2/1/26,8/1/26,,4/15/26,FALSE
 ,Start Let’s Analyze,6/1/24,7/1/24,Need to be back in the US,,TRUE
 ,"Get letters of rec from principal, client, and prof",6/1/24,7/1/24,,,TRUE
 ,Start studying for the GRE,6/1/24,9/1/24,,,TRUE
