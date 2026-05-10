@@ -1,21 +1,18 @@
 ﻿Person,Last Touch Point,Cadence,Time to Next Touch Point,Time Since,Var,Bday,Bday Var,Variance,Bday Flag,,,,,
 Disco Steff,"Tuesday, November 25, 2025",Quarterly,90,166,-76,11-Apr,336,-76,,,,,,
-Leticia,"Sunday, August 31, 2025",Biannually,180,252,-72,,,-72,,,,,,
-Katia,"Thursday, March 19, 2026",Monthly,30,52,-22,3-Oct,146,-22,,,,,Weekly,7
-Janeth,"Tuesday, March 31, 2026",Biannually,180,40,140,4-May,359,140,,,,,Biweekly,14
-Peter Seid,"Monday, May 5, 2025",Annually,365,370,-5,29-Jul,80,-5,,,,,Monthly,30
-Yone,"Monday, April 6, 2026",Monthly,30,34,-4,23-Oct,166,-4,,,,,Quarterly,90
-Reuben,"Monday, April 6, 2026",Quarterly,90,34,56,9-May,364,56,,,,,Biannually,180
-Johnny,"Sunday, April 12, 2026",Monthly,30,28,2,7-Nov,181,2,,,,,Annually,365
-Lionel,"Sunday, April 12, 2026",Monthly,30,28,2,31-Jul,82,2,,,,,,
-Tyler,"Sunday, April 12, 2026",Monthly,30,28,2,11-Apr,336,2,,,,,,
-Brando,"Monday, April 6, 2026",Annually,365,34,331,19-May,9,9,Happy birthday!!!,,,,,
-Sarthak,"Sunday, December 7, 2025",Biannually,180,154,26,2-Feb,268,26,,,,,,
+Katia,"Thursday, March 19, 2026",Monthly,30,52,-22,3-Oct,146,-22,,,,,,
+Yone,"Monday, April 6, 2026",Monthly,30,34,-4,23-Oct,166,-4,,,,,Weekly,7
+Johnny,"Sunday, April 12, 2026",Monthly,30,28,2,7-Nov,181,2,,,,,Biweekly,14
+Lionel,"Sunday, April 12, 2026",Monthly,30,28,2,31-Jul,82,2,,,,,Monthly,30
+Tyler,"Sunday, April 12, 2026",Monthly,30,28,2,11-Apr,336,2,,,,,Quarterly,90
+Brando,"Monday, April 6, 2026",Annually,365,34,331,19-May,9,9,Happy birthday!!!,,,,Biannually,180
+Sarthak,"Sunday, December 7, 2025",Biannually,180,154,26,2-Feb,268,26,,,,,Annually,365
 Zach,"Thursday, March 19, 2026",Quarterly,90,52,38,2-Feb,268,38,,,,,,
 Evan Sandy,"Friday, March 20, 2026",Quarterly,90,51,39,19-Mar,313,39,,,,,,
 Niel,"Sunday, April 12, 2026",Quarterly,90,28,62,21-Jun,42,42,Happy birthday!!!,,,,,
 Jelena,"Tuesday, March 31, 2026",Quarterly,90,40,50,19-Feb,285,50,,,,,,
 Gabe Seid,"Monday, August 25, 2025",Annually,365,258,107,3-Jul,54,54,Happy birthday!!!,,,,,
+Reuben,"Monday, April 6, 2026",Quarterly,90,34,56,9-May,364,56,,,,,,
 Jason Kant,"Monday, April 6, 2026",Quarterly,90,34,56,15-Jul,66,56,,,,,,
 Zweigs,"Monday, April 6, 2026",Quarterly,90,34,56,28-Dec,232,56,,,,,,
 Austin West,"Monday, April 6, 2026",Quarterly,90,34,56,10-Nov,184,56,,,,,,
@@ -27,6 +24,7 @@ Luke Malvey,"Sunday, April 12, 2026",Quarterly,90,28,62,9-Jan,244,62,,,,,,
 Billy Seid,"Saturday, August 30, 2025",Annually,365,253,112,13-Jul,64,64,Happy birthday!!!,,,,,
 Laura,"Sunday, January 18, 2026",Biannually,180,112,68,3-Feb,269,68,,,,,,
 Cide,"Saturday, July 19, 2025",Annually,365,295,70,19-Jul,70,70,,,,,,
+Peter Seid,"Sunday, May 10, 2026",Annually,365,0,365,29-Jul,80,80,Happy birthday!!!,,,,,
 Ivan,"Tuesday, November 4, 2025",Annually,365,187,178,1-Aug,83,83,Happy birthday!!!,,,,,
 Nick Crawford,"Monday, August 25, 2025",Annually,365,258,107,2-Aug,84,84,Happy birthday!!!,,,,,
 Leah,"Monday, April 13, 2026",Biannually,180,27,153,10-Aug,92,92,Happy birthday!!!,,,,,
@@ -58,6 +56,8 @@ Andrea,"Monday, March 9, 2026",Biannually,180,62,118,8-Oct,151,118,,,,,,
 Isaac,"Friday, September 5, 2025",Annually,365,247,118,,,118,,,,,,
 Tony Sen,"Wednesday, March 11, 2026",Biannually,180,60,120,,,120,,,,,,
 George,"Thursday, March 19, 2026",Biannually,180,52,128,4-Nov,178,128,,,,,,
+Janeth,"Tuesday, March 31, 2026",Biannually,180,40,140,4-May,359,140,,,,,,
 Tru,"Tuesday, October 14, 2025",Annually,365,208,157,,,157,,,,,,
+Leticia,"Sunday, May 10, 2026",Biannually,180,0,180,,,180,,,,,,
 Aaron Cohen,"Sunday, February 1, 2026",Annually,365,98,267,,,267,,,,,,
 Amrouis,"Thursday, March 19, 2026",Annually,365,52,313,10-Apr,335,313,,,,,,
