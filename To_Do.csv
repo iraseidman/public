@@ -2,11 +2,11 @@
 Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
 ,Delve into Flutter code,8/1/24,10/1/25,,,FALSE
 ,"Buy Dolphy books - Cat in the Hat Comes Back, MgElliot's Pool, Oh the Places You'll Go, Homer, and Goodnight Moon.",3/2/26,12/22/26,Need to be back in the US,,FALSE
-,Finish online dashboard: Don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,6/1/26,11/1/26,,,FALSE
-,Confirm with T about investing.,6/1/26,12/2/26,,,FALSE
 ,Prepare documentation for Morris baby account - file with taxes,5/15/26,5/20/26,Need to be back in the Netherlands to get SSN,,FALSE
 ,Get Morris' social security number,5/15/26,5/20/26,,,FALSE
 ,Blog post about sigmoid,6/1/26,8/1/26,,,FALSE
+,Finish online dashboard: Don’t overwrite latest news pulls if the API reaches it its limit and don’t overwrite the stock data if the there is no data for the day (holiday or weekend treatment).,6/1/26,11/1/26,,,FALSE
+,Confirm with T about investing.,6/1/26,12/2/26,,,FALSE
 ,Start growing lotus and hemp,7/1/26,4/1/26,,,FALSE
 ,"Record Chopin etudes/nocturnes, Bach preludes and fugues, Moonlight, Mozart sonatas, Georgia on my Mind, Sunday Mornings, Rachmaninoff preludes, and Brothers",7/1/26,10/1/26,,,FALSE
 ,Drumming lessons,7/1/26,1/1/27,,,FALSE
@@ -33,6 +33,6 @@ Completed,Task,Start Date,Due Date,Contingency,Completed Date,Parking Lot?
 ,Start studying for the GRE,6/1/24,9/1/24,,,TRUE
 ,Start Stay Direct Reddit Group,7/1/24,8/1/24,Need to be back in the US,,TRUE
 ,Join political club,8/1/24,4/1/25,,,TRUE
-,Take the GRE,10/1/24,7/1/24,,,TRUE
+,0,1/0/00,1/0/00,,,FALSE
 ,,,,,,
 ,,,,,,
