@@ -1,12 +1,12 @@
 ﻿Person,Last Touch Point,Cadence,Time to Next Touch Point,Time Since,Var,Bday,Bday Var,Variance,Bday Flag,,,,,
 Disco Steff,"Tuesday, November 25, 2025",Quarterly,90,167,-77,11-Apr,335,-77,,,,,,
 Katia,"Thursday, March 19, 2026",Monthly,30,53,-23,3-Oct,145,-23,,,,,,
-Yone,"Monday, April 6, 2026",Monthly,30,35,-5,23-Oct,165,-5,,,,,Weekly,7
-Johnny,"Sunday, April 12, 2026",Monthly,30,29,1,7-Nov,180,1,,,,,Biweekly,14
-Lionel,"Sunday, April 12, 2026",Monthly,30,29,1,31-Jul,81,1,,,,,Monthly,30
-Tyler,"Sunday, April 12, 2026",Monthly,30,29,1,11-Apr,335,1,,,,,Quarterly,90
-Brando,"Monday, April 6, 2026",Annually,365,35,330,19-May,8,8,Happy birthday!!!,,,,Biannually,180
-Sarthak,"Sunday, December 7, 2025",Biannually,180,155,25,2-Feb,267,25,,,,,Annually,365
+Johnny,"Sunday, April 12, 2026",Monthly,30,29,1,7-Nov,180,1,,,,,Weekly,7
+Lionel,"Sunday, April 12, 2026",Monthly,30,29,1,31-Jul,81,1,,,,,Biweekly,14
+Tyler,"Sunday, April 12, 2026",Monthly,30,29,1,11-Apr,335,1,,,,,Monthly,30
+Brando,"Monday, April 6, 2026",Annually,365,35,330,19-May,8,8,Happy birthday!!!,,,,Quarterly,90
+Sarthak,"Sunday, December 7, 2025",Biannually,180,155,25,2-Feb,267,25,,,,,Biannually,180
+Yone,"Monday, May 11, 2026",Monthly,30,0,30,23-Oct,165,30,,,,,Annually,365
 Zach,"Thursday, March 19, 2026",Quarterly,90,53,37,2-Feb,267,37,,,,,,
 Evan Sandy,"Friday, March 20, 2026",Quarterly,90,52,38,19-Mar,312,38,,,,,,
 Niel,"Sunday, April 12, 2026",Quarterly,90,29,61,21-Jun,41,41,Happy birthday!!!,,,,,
