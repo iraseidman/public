@@ -1,57 +1,57 @@
-Stock Data - 2026-06-14 10:19:44 EST
+Stock Data - 2026-06-16 21:55:12 EST
 ============================================================
 
 Company: Chipotle Mexican Grill, Inc. (CMG)
-Current Price: $32.23
-Change: $+0.98 (+3.14%)
+Current Price: $32.72
+Change: $-0.01 (-0.03%)
 52-Week High: $58.42
 52-Week Low: $28.04
-Market Cap: $41.34B
-Volume: 20,460,900
+Market Cap: $41.97B
+Volume: 10,713,626
 ----------------------------------------
 
 Company: GoDaddy Inc. (GDDY)
-Current Price: $76.24
-Change: $+1.07 (+1.42%)
+Current Price: $78.87
+Change: $+1.38 (+1.78%)
 52-Week High: $181.49
 52-Week Low: $71.59
-Market Cap: $10.09B
-Volume: 2,842,900
+Market Cap: $10.44B
+Volume: 1,523,810
 ----------------------------------------
 
 Company: Amplify Etho Climate Leadership U.S. ETF (ETHO)
-Current Price: $77.42
-Change: $+1.09 (+1.43%)
-52-Week High: $77.88
-52-Week Low: $55.23
+Current Price: $77.71
+Change: $-0.48 (-0.61%)
+52-Week High: $78.68
+52-Week Low: $56.18
 Market Cap: N/A
-Volume: 2,700
+Volume: 1,560
 ----------------------------------------
 
 Company: American Funds 2060 Trgt Date Retire R6 (RFUTX)
-Current Price: $22.40
-Change: $+0.09 (+0.40%)
-52-Week High: $22.81
+Current Price: $22.82
+Change: $+0.42 (+1.87%)
+52-Week High: $22.82
 52-Week Low: $19.09
 Market Cap: N/A
 Volume: 0
 ----------------------------------------
 
 Company: Delta Air Lines, Inc. (DAL)
-Current Price: $83.06
-Change: $+1.23 (+1.50%)
-52-Week High: $83.83
+Current Price: $83.41
+Change: $-0.66 (-0.79%)
+52-Week High: $87.39
 52-Week Low: $45.28
-Market Cap: $54.57B
-Volume: 6,859,900
+Market Cap: $54.80B
+Volume: 6,865,656
 ----------------------------------------
 
 Company: The Home Depot, Inc. (HD)
-Current Price: $328.39
-Change: $+2.38 (+0.73%)
+Current Price: $336.64
+Change: $+6.82 (+2.07%)
 52-Week High: $426.75
 52-Week Low: $289.10
-Market Cap: $327.44B
-Volume: 3,648,200
+Market Cap: $335.67B
+Volume: 3,655,130
 ----------------------------------------
 
