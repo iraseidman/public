@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import os
-from pathlib import Path
 import pandas as pd
 import requests
 import feedparser
@@ -159,74 +158,13 @@ def fetch_stocks(symbols: list[str], output_file: str):
     except Exception as e:
         print(f"Error fetching stock data: {str(e)}")
 
-# Scrapers
-def scrape_yahoo(username: str, password: str, limit: int = 10) -> list[dict]:
-    """Fetch recent emails from Yahoo via IMAP."""
-    imap_server = "imap.mail.yahoo.com"
-    mail = imaplib.IMAP4_SSL(imap_server)
-
-    try:
-        mail.login(username, password)
-        mail.select("inbox")
-
-        # Search for all messages
-        status, messages = mail.search(None, "ALL")
-        if status != "OK":
-            return []
-
-        msg_nums = messages[0].split()[-limit:]  # last N messages
-        results = []
-
-        for num in reversed(msg_nums):
-            status, msg_data = mail.fetch(num, "(RFC822)")
-            if status != "OK":
-                continue
-
-            raw_msg = msg_data[0][1]
-            msg = email.message_from_bytes(raw_msg)
-
-            subject, encoding = decode_header(msg["Subject"])[0]
-            if isinstance(subject, bytes):
-                subject = subject.decode(encoding or "utf-8", errors="ignore")
-
-            from_ = msg.get("From", "")
-            date_ = msg.get("Date", "")
-
-            results.append({"from": from_, "subject": subject, "date": date_})
-
-        return results
-    finally:
-        mail.logout()
-
 # Save
 def save_email_data(email_data, filepath: str):
     df = pd.DataFrame(email_data)
     df.to_csv(filepath, index=False, quoting=csv.QUOTE_ALL)
 
-#Others
-def detect_units_from_table(soup):
-    """Return 'C' for Celsius or 'F' for Fahrenheit based on the first temperature found."""
-    table = soup.find('table', {'class': 'zebra'})
-    if not table:
-        return None
-
-    for row in table.find_all('tr'):
-        for col in row.find_all('td'):
-            text = col.get_text(strip=True)
-            if '°C' in text:
-                return 'C'
-            elif '°F' in text:
-                return 'F'
-    return None  # Could not detect
-
-
-def clean_text(text: str) -> str:
-    """Remove extra whitespace and newline characters from a string."""
-    return " ".join(text.split())
-
-
-# Function to convert email date to ISO 8601 UTC format (for frontend local time conversion)
 def convert_to_utc_iso(date_str):
+    """Convert email date to ISO 8601 UTC format (for frontend local time conversion)"""
     try:
         # Parse the date string to datetime
         utc_dt = parsedate_to_datetime(date_str)
@@ -300,11 +238,6 @@ def get_emails(service):
 
     return email_data
 
-def ensure_folder(folder_name: str) -> str:
-    folder_path = os.path.join(os.path.dirname(__file__), folder_name)
-    os.makedirs(folder_path, exist_ok=True)
-    return folder_path
-
 def git_commit_and_push(commit_message: str):
     try:
         # Stage all changes
@@ -337,13 +270,13 @@ def git_commit_and_push(commit_message: str):
         print("Git operation failed:")
         print(e.stderr)
 
-# CARTOON PULL
-cartoon_folder = ensure_folder("Cartoon")
-weather_folder = ensure_folder("Weather")
-email_folder = ensure_folder("Email")
-stocks_folder = ensure_folder("Stocks")
+# Create folders if they don't exist
+os.makedirs("Cartoon", exist_ok=True)
+os.makedirs("Weather", exist_ok=True)
+os.makedirs("Email", exist_ok=True)
+os.makedirs("Stocks", exist_ok=True)
 
-# URL of The New Yorker's Daily Cartoon page
+# CARTOON PULL
 session = requests.Session()  #used for web-scraping fetches throughout the entire script
 
 # Send an HTTP GET request to the URL
@@ -384,7 +317,7 @@ if image_url.startswith("/"):
 image = session.get(image_url)
 image.raise_for_status()
 
-with open(os.path.join(cartoon_folder, "daily_cartoon.png"), "wb") as f:
+with open(os.path.join("Cartoon", "daily_cartoon.png"), "wb") as f:
     f.write(image.content)
 
 # Caption
@@ -395,23 +328,21 @@ if not caption:
     raise RuntimeError("Cartoon link not found")
 
 # Download
-with open(os.path.join(cartoon_folder, "captionText.txt"), "w", encoding="utf-8") as f:
+with open(os.path.join("Cartoon", "captionText.txt"), "w", encoding="utf-8") as f:
     f.write(caption)
 
 # WEATHER PULLS
-os.makedirs(weather_folder, exist_ok=True)
-
 fetch_weather(
     "new york", "usa",
-    os.path.join(weather_folder, "extended_weather_forecast_nyc.csv"))
+    os.path.join("Weather", "extended_weather_forecast_nyc.csv"))
 fetch_weather(
     "utrecht", "netherlands",
-    os.path.join(weather_folder, "extended_weather_forecast_utrecht.csv"))
+    os.path.join("Weather", "extended_weather_forecast_utrecht.csv"))
 
 # FETCH STOCKS
 # Define stock symbols to track
 stock_symbols = ["CMG", "GDDY", "ETHO", "RFUTX", "DAL", "HD"]
-stocks_filename = os.path.join(stocks_folder, "stocks.csv")
+stocks_filename = os.path.join("Stocks", "stocks.csv")
 fetch_stocks(stock_symbols, stocks_filename)
 
 session.close()  #finish web-scarping so close the session
