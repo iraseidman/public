@@ -38,7 +38,7 @@ jobs:
         run: |
           git pull
 
-        - name: Commit and push
+      - name: Commit and push
         run:  |
           if [ -n "$(git status --porcelain)" ]; then
             git add .
