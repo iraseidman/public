@@ -4,7 +4,7 @@ on:
   schedule:
     # 6am CEST = 4am UTC (CEST is UTC+2)
     - cron: '0 4 * * *'
-  workflow_dispatch:  # Allow manual triggering
+  workflow_dispatch:
 
 jobs:
   update-dashboard:
@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -29,18 +31,16 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
 
-      - name: Commit and push changes
+      - name: Pull latest, commit and push
         run: |
+          git pull --rebase origin main
           if [ -n "$(git status --porcelain)" ]; then
             git add .
             git commit -m "GitHub Actions: Update dashboard data [$(date -u +'%Y-%m-%d %H:%M:%S UTC')]"
-            git pull origin main --rebase
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main
+            git push origin main
           else
             echo "No changes to commit"
           fi
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
