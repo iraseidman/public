@@ -348,6 +348,6 @@ fetch_stocks(stock_symbols, stocks_filename)
 session.close()  #finish web-scarping so close the session
 
 # Push updates to GitHub
-git_commit_and_push("GitHub Actions: Update dashboard data")
+# git_commit_and_push("GitHub Actions: Update dashboard data")
 
 print("Dashboard update complete!")
