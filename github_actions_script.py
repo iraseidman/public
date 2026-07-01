@@ -238,6 +238,44 @@ def get_emails(service):
 
     return email_data
 
+def scrape_yahoo(username: str, password: str, limit: int = 10) -> list[dict]:
+    """Fetch recent emails from Yahoo via IMAP."""
+    imap_server = "imap.mail.yahoo.com"
+    mail = imaplib.IMAP4_SSL(imap_server)
+
+    try:
+        mail.login(username, password)
+        mail.select("inbox")
+
+        # Search for all messages
+        status, messages = mail.search(None, "ALL")
+        if status != "OK":
+            return []
+
+        msg_nums = messages[0].split()[-limit:]  # last N messages
+        results = []
+
+        for num in reversed(msg_nums):
+            status, msg_data = mail.fetch(num, "(RFC822)")
+            if status != "OK":
+                continue
+
+            raw_msg = msg_data[0][1]
+            msg = email.message_from_bytes(raw_msg)
+
+            subject, encoding = decode_header(msg["Subject"])[0]
+            if isinstance(subject, bytes):
+                subject = subject.decode(encoding or "utf-8", errors="ignore")
+
+            from_ = msg.get("From", "")
+            date_ = msg.get("Date", "")
+
+            results.append({"from": from_, "subject": subject, "date": date_})
+
+        return results
+    finally:
+        mail.logout()
+
 def git_commit_and_push(commit_message: str):
     try:
         # Stage all changes
