@@ -339,6 +339,27 @@ fetch_weather(
     "utrecht", "netherlands",
     os.path.join("Weather", "extended_weather_forecast_utrecht.csv"))
 
+# FETCH EMAIL
+
+# Gmail
+try:
+    service = get_service()
+    gmail_data = get_emails(service)
+    gmail_filename = os.path.join(email_folder, "gmail.csv")
+    save_email_data(gmail_data, os.path.expanduser(gmail_filename))
+    print("Gmail emails saved to email folder")
+except Exception as e:
+    print("Gmail email access failed - skipping Gmail data")
+
+# Yahoo
+try:
+    yahoo_data = scrape_yahoo("Ira.Seidman@Yahoo.Com", "ovycajhdozoluijc")
+    yahoo_filename = os.path.join(email_folder, "yahoo.csv")
+    save_email_data(yahoo_data, os.path.expanduser(yahoo_filename))
+    print("Yahoo emails saved to email folder")
+except Exception as e:
+    print(f"Yahoo email access failed - skipping Yahoo data: {e}")
+
 # FETCH STOCKS
 # Define stock symbols to track
 stock_symbols = ["CMG", "GDDY", "ETHO", "RFUTX", "DAL", "HD"]
