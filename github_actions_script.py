@@ -29,19 +29,22 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 # FUNCTIONS
 def get_service():
-    """Get Gmail service using service account credentials from credentials.json"""
+    """Get Gmail service using cached credentials from token.pickle"""
     creds = None
 
-    try:
-        # Load service account credentials from credentials.json
-        creds = service_account.Credentials.from_service_account_file(
-            'credentials.json',
-            scopes=SCOPES
-        )
+    if os.path.exists('token.pickle'):
+        with open('token.pickle', 'rb') as token:
+            creds = pickle.load(token)
+
+    if not creds or not creds.valid:
+        if creds and creds.expired and creds.refresh_token:
+            creds.refresh(Request())
+
+    if creds:
         service = build('gmail', 'v1', credentials=creds)
         return service
-    except Exception as e:
-        print(f"Failed to authenticate with Gmail: {e}")
+    else:
+        print("No valid Gmail credentials available")
         return None
 
 STOCKS = {
