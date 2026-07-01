@@ -27,7 +27,7 @@ jobs:
           pip install beautifulsoup4 pandas requests feedparser google-auth-oauthlib google-auth-httplib2 google-api-python-client pytz yfinance
 
       - name: Run dashboard update script
-        run: python `github_actions_script.py`
+        run: python github_actions_script.py
 
       - name: Configure Git
         run: |
