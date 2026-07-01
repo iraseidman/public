@@ -3,9 +3,6 @@ import os
 import pandas as pd
 import requests
 import feedparser
-from googleapiclient.discovery import build
-from google_auth_oauthlib.flow import InstalledAppFlow
-from google.auth.transport.requests import Request
 import pickle
 import datetime
 import pytz
@@ -17,8 +14,6 @@ import re
 import yfinance as yf
 import csv
 from concurrent.futures import ThreadPoolExecutor
-from google.oauth2.credentials import Credentials
-from google.oauth2 import service_account
 import subprocess
 import json
 import sys
@@ -28,22 +23,6 @@ print("Dashboard script running on GitHub Actions...")
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 # FUNCTIONS
-def get_service():
-    """Get Gmail service using service account credentials from credentials.json"""
-    creds = None
-
-    try:
-        # Load service account credentials from credentials.json
-        creds = service_account.Credentials.from_service_account_file(
-            'credentials.json',
-            scopes=SCOPES
-        )
-        service = build('gmail', 'v1', credentials=creds)
-        return service
-    except Exception as e:
-        print(f"Failed to authenticate with Gmail: {e}")
-        return None
-
 STOCKS = {
     "CHIPOTLE MEXICAN GRILL, INC.": "CMG",
     "GODADDY INC.": "GDDY",
@@ -378,25 +357,7 @@ fetch_weather(
     "utrecht", "netherlands",
     os.path.join("Weather", "extended_weather_forecast_utrecht.csv"))
 
-# FETCH EMAIL
-
-# Gmail
-try:
-    service = get_service()
-    if service:
-        gmail_data = get_emails(service)
-        if gmail_data:
-            gmail_filename = os.path.join("Email", "gmail.csv")
-            save_email_data(gmail_data, gmail_filename)
-            print("Gmail emails saved to Email folder")
-        else:
-            print("No Gmail data to save")
-    else:
-        print("Gmail service authentication failed")
-except Exception as e:
-    print(f"Gmail email access failed: {e}")
-
-# Yahoo
+# FETCH Yahoo Mail
 try:
     yahoo_email = os.getenv('YAHOO_EMAIL')
     yahoo_password = os.getenv('YAHOO_PASSWORD')
