@@ -29,21 +29,20 @@ SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
 
 # FUNCTIONS
 def get_service():
+    """Get Gmail service using service account credentials from credentials.json"""
     creds = None
-    if os.path.exists('token.pickle'):
-        with open('token.pickle', 'rb') as token:
-            creds = pickle.load(token)
-    if not creds or not creds.valid:
-        if creds and creds.expired and creds.refresh_token:
-            creds.refresh(Request())
-        else:
-            flow = InstalledAppFlow.from_client_secrets_file(
-                'credentials.json', SCOPES)
-            creds = flow.run_local_server(port=0)
-        with open('token.pickle', 'wb') as token:
-            pickle.dump(creds, token)
-    service = build('gmail', 'v1', credentials=creds)
-    return service
+
+    try:
+        # Load service account credentials from credentials.json
+        creds = service_account.Credentials.from_service_account_file(
+            'credentials.json',
+            scopes=SCOPES
+        )
+        service = build('gmail', 'v1', credentials=creds)
+        return service
+    except Exception as e:
+        print(f"Failed to authenticate with Gmail: {e}")
+        return None
 
 STOCKS = {
     "CHIPOTLE MEXICAN GRILL, INC.": "CMG",
@@ -384,15 +383,18 @@ fetch_weather(
 # Gmail
 try:
     service = get_service()
-    gmail_data = get_emails(service)
-    if gmail_data:
-        gmail_filename = os.path.join("Email", "gmail.csv")
-        save_email_data(gmail_data, gmail_filename)
-        print("Gmail emails saved to Email folder")
+    if service:
+        gmail_data = get_emails(service)
+        if gmail_data:
+            gmail_filename = os.path.join("Email", "gmail.csv")
+            save_email_data(gmail_data, gmail_filename)
+            print("Gmail emails saved to Email folder")
+        else:
+            print("No Gmail data to save")
     else:
-        print("No Gmail data to save")
+        print("Gmail service authentication failed")
 except Exception as e:
-    print("Gmail email access failed - skipping Gmail data")
+    print(f"Gmail email access failed: {e}")
 
 # Yahoo
 try:
