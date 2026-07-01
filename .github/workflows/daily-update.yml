@@ -26,8 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install beautifulsoup4 pandas requests feedparser google-auth-oauthlib google-auth-httplib2 google-api-python-client pytz yfinance
 
+      - name: Set up Google credentials
+        run: |
+          echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
+
       - name: Run dashboard update script
-        run: python github_actions_script.py
+        run: python3 github_actions_script.py
 
       - name: Configure Git
         run: |
