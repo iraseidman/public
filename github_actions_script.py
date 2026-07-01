@@ -25,6 +25,8 @@ import sys
 
 print("Dashboard script running on GitHub Actions...")
 
+SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+
 # FUNCTIONS
 def get_service():
     creds = None
@@ -383,18 +385,27 @@ fetch_weather(
 try:
     service = get_service()
     gmail_data = get_emails(service)
-    gmail_filename = os.path.join(email_folder, "gmail.csv")
-    save_email_data(gmail_data, os.path.expanduser(gmail_filename))
-    print("Gmail emails saved to email folder")
+    if gmail_data:
+        gmail_filename = os.path.join("Email", "gmail.csv")
+        save_email_data(gmail_data, gmail_filename)
+        print("Gmail emails saved to Email folder")
+    else:
+        print("No Gmail data to save")
 except Exception as e:
     print("Gmail email access failed - skipping Gmail data")
 
 # Yahoo
 try:
-    yahoo_data = scrape_yahoo("Ira.Seidman@Yahoo.Com", "ovycajhdozoluijc")
-    yahoo_filename = os.path.join(email_folder, "yahoo.csv")
-    save_email_data(yahoo_data, os.path.expanduser(yahoo_filename))
-    print("Yahoo emails saved to email folder")
+    yahoo_email = os.getenv('YAHOO_EMAIL')
+    yahoo_password = os.getenv('YAHOO_PASSWORD')
+
+    if yahoo_email and yahoo_password:
+        yahoo_data = scrape_yahoo(yahoo_email, yahoo_password)
+        yahoo_filename = os.path.join("Email", "yahoo.csv")
+        save_email_data(yahoo_data, yahoo_filename)
+        print("Yahoo emails saved to Email folder")
+    else:
+        print("Yahoo credentials not set - skipping Yahoo data")
 except Exception as e:
     print(f"Yahoo email access failed - skipping Yahoo data: {e}")
 

@@ -30,6 +30,11 @@ jobs:
         run: |
           echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
 
+      - name: Set environment variables
+        run: |
+          echo "YAHOO_EMAIL=${{ secrets.YAHOO_EMAIL }}" >> $GITHUB_ENV
+          echo "YAHOO_PASSWORD=${{ secrets.YAHOO_PASSWORD }}" >> $GITHUB_ENV
+
       - name: Run dashboard update script
         run: python3 github_actions_script.py
 
