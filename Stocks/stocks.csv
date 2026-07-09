@@ -1,7 +1,7 @@
-Ticker,Error,Company,Current Price,Price Change,Percent Change,52 Week High,52 Week Low,Market Cap,Volume
-CMG,"Failed to perform, curl: (60) SSL: no alternative certificate subject name matches target hostname 'fc.yahoo.com'. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.",,,,,,,,
-GDDY,,GoDaddy Inc.,89.32,3.71,4.33,179.61,71.59,11826847744.0,2214600.0
-ETHO,,Amplify Etho Climate Leadership U.S. ETF,79.0,-0.83,-1.04,81.13,57.97,,2400.0
-RFUTX,,American Funds 2060 Trgt Date Retire R-6,22.65,-0.21,-0.92,22.87,19.3,,0.0
-DAL,,"Delta Air Lines, Inc.",88.63,-3.05,-3.33,95.68,49.83,58229407744.0,8331400.0
-HD,,"The Home Depot, Inc.",345.21,-5.44,-1.55,426.75,289.1,344214634496.0,3591000.0
+Ticker,Company,Current Price,Price Change,Percent Change,52 Week High,52 Week Low,Market Cap,Volume
+CMG,"Chipotle Mexican Grill, Inc.",33.43,-0.92,-2.68,57.04,28.04,42881798144.0,15478100
+GDDY,GoDaddy Inc.,86.89,-2.43,-2.72,177.835,71.59,11505091584.0,1933000
+ETHO,Amplify Etho Climate Leadership U.S. ETF,78.2,-0.8,-1.02,81.13,57.97,,1600
+RFUTX,American Funds 2060 Trgt Date Retire R-6,22.55,-0.1,-0.44,22.87,19.3,,0
+DAL,"Delta Air Lines, Inc.",87.29,-1.34,-1.51,95.68,49.83,57349038080.0,8718900
+HD,"The Home Depot, Inc.",336.21,-9.0,-2.61,426.75,289.1,335240593408.0,4192300
