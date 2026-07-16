@@ -1,5 +1,4 @@
 ﻿Person,Last Touch Point,Cadence,Time to Next Touch Point,Time Since,Var,Bday,Bday Var,Variance,Bday Flag
-Austin West,"Monday, April 6, 2026",Quarterly,90,101,-11,10-Nov,117,-11,
 Gene Seid,"Monday, April 6, 2026",Quarterly,90,101,-11,9-Dec,146,-11,
 Tsunami,"Monday, April 6, 2026",Quarterly,90,101,-11,11-Aug,26,-11,
 Niel,"Sunday, April 12, 2026",Quarterly,90,95,-5,21-Jun,340,-5,
@@ -54,6 +53,7 @@ Janeth,"Tuesday, March 31, 2026",Biannually,180,107,73,4-May,292,73,
 Jason Kant,"Wednesday, July 1, 2026",Quarterly,90,15,75,15-Jul,364,75,
 Jelena,"Wednesday, July 1, 2026",Quarterly,90,15,75,19-Feb,218,75,
 Zweigs,"Wednesday, July 1, 2026",Quarterly,90,15,75,28-Dec,165,75,
+Austin West,"Thursday, July 16, 2026",Quarterly,90,0,90,10-Nov,117,90,
 Tru,"Tuesday, October 14, 2025",Annually,365,275,90,,,90,
 Leticia,"Sunday, May 10, 2026",Biannually,180,67,113,,,113,
 Sarthak,"Monday, June 8, 2026",Biannually,180,38,142,2-Feb,201,142,
