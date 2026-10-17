@@ -1,7 +1,7 @@
 Ticker,Company,Current Price,Price Change,Percent Change,52 Week High,52 Week Low,Market Cap,Volume
-CMG,"Chipotle Mexican Grill, Inc.",30.58,0.06,0.2,42.74,28.04,38696480768.0,17348200
-GDDY,GoDaddy Inc.,107.29,3.93,3.8,137.927,71.59,13588032512.0,1453700
-ETHO,Amplify Etho Climate Leadership U.S. ETF,80.2,1.08,1.36,83.93,61.144,,5200
-RFUTX,American Funds 2060 Trgt Dt Rtr R-6,22.52,0.1,0.45,23.27,19.3,,0
-DAL,"Delta Air Lines, Inc.",78.08,1.65,2.15,95.68,55.03,51369799680.0,6725400
-HD,"The Home Depot, Inc.",308.24,12.73,4.31,397.63,277.15,307527843840.0,6670900
+CMG,"Chipotle Mexican Grill, Inc.",29.89,-0.69,-2.26,42.74,28.04,37823344640.0,17209200
+GDDY,GoDaddy Inc.,105.96,-1.33,-1.24,137.927,71.59,13419590656.0,1048700
+ETHO,Amplify Etho Climate Leadership U.S. ETF,78.75,-1.45,-1.81,83.93,61.144,,5500
+RFUTX,American Funds 2060 Trgt Dt Rtr R-6,22.3,-0.22,-0.98,23.27,19.3,,0
+DAL,"Delta Air Lines, Inc.",75.37,-2.71,-3.47,95.68,55.03,49586860032.0,5894700
+HD,"The Home Depot, Inc.",309.63,1.39,0.45,397.63,277.15,308914651136.0,7035400
