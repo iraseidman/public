@@ -64,7 +64,8 @@ def fetch_weather(city: str, country_code: str, output_file: str):
         dt = datetime.datetime.fromtimestamp(entry["dt"])
 
         rows.append({
-            "Datetime": dt.strftime("%Y-%m-%d %H:%M"),
+            "Date": dt.strftime("%Y-%m-%d"),
+            "Time": dt.strftime("%H:%M"),
             "Temp (°C)": entry["main"]["temp"],
             "Feels Like (°C)": entry["main"]["feels_like"],
             "Min Temp (°C)": entry["main"]["temp_min"],
